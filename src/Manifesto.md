@@ -2,17 +2,21 @@
 
 ### **Field service skills were picked up, handiness with tools evolved under guidance, professionally mastered with guidance passed on only through practice.**  
 
-*Sorry, ArtificialDad is NOT your Dad.*
+*Sorry buddy, ArtificialDad is NOT your Dad!*
 
 AD aims to be living community of hands-on technicians who are also OpenClaw multi-agent developers. We aim to be an educational community that never stops learning how to build an ArtificialDad ... it's important to understand WHY artificial is never going to be a replacement for the real thing ... in either intelligence or Dads. 
 
 We generally try to stay current with [OpenClaw.AI](https://openclaw.ai/) as well as the [OpenClaw organization on GitHub](https://github.com/openclaw) and pay attention to best practices and things such as [AWESOME OpenClaw skills](https://github.com/VoltAgent/awesome-openclaw-skills). The last update to this page was March 10, 2026; our intention is to continuously update this site but *we're busy; we DO have other things that we need to do.*
 
-*Turn off your teevee and spend some time perfecting your understanding of technologies and tools that shape your future trade.*
+***Turn off your teevee and spend some time perfecting your understanding of technologies and tools that shape your future trade.***
 
 # Onboarding/Background
 
-We assume that you have technical skills, ie you can use a screwdriver and a multimeter and other pertinent gages/instruments OR you can figure out how to use them ... the hands-on stuff cannot be covered in a GitHub repository.  After that, the FIRST Prerequisite to preceed other Prerequisites is to understand the most basic roadmap or lay of the land in OpenClaw Agentic Development Patterns.
+We assume that you have technical skills, ie you can use a screwdriver and a multimeter and or a manometer as well as other pertinent gages/instruments/pieces of equipment ... OR you don't exactly know everything about your fancy multimeter, you are capable of figuring out how to use it ... the hands-on stuff is up to you, cannot be covered in a GitHub repository but you can learn a lot from AI or YouTube if you have spent enough time understanding stuff to know questions to ask. 
+
+ArtificialDad is not a substitute for asking questions and investigating and being curious. Stop making excuses for what you don't know -- just figure out how to learn, ie if you want to get ahead in life, you can't opt for crutches or having a few beers or getting high at what you thought was your end of the day ... *repeating this for emphasis, because it might just be the most important thing about autodidactic learning like ArtificialDad*-- ***you need to turn off your teevee and spend some time perfecting your understanding of technologies and tools that shape your future trade.***
+
+*After you have decide to stop being a crybaby about your education,* the FIRST Prerequisite to preceed other Prerequisites is to understand the most basic roadmap or lay of the land in OpenClaw Agentic Development Patterns.
 
 ## Agentic Development Patterns
 
