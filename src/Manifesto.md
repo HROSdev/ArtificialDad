@@ -1,8 +1,14 @@
-## **Field service skill were never taught — they evolved, through practice.**  
+## **Service skills were never taught in classrooms**
 
-ArtificialDad is aims to be living community of hands-on technicians who are also OpenClaw multi-agent developers. We aim to be an educational community that never stops learning how to build an ArtificialDad ... it's important to understand WHY artificial is never going to be a replacement for the real thing ... in either intelligence or Dads. 
+### **Field service skills were picked up, handiness with tools evolved under guidance, professionally mastered with guidance passed on only through practice.**  
 
-We generally try to stay current with [OpenClaw.AI](https://openclaw.ai/) as well as the [OpenClaw organization on GitHub](https://github.com/openclaw) and pay attention to best practices and things such as [AWESOME OpenClaw skills](https://github.com/VoltAgent/awesome-openclaw-skills). The last update to this page was March 10, 2026; our intention is to continuously update this site but *we do have other things to do.*
+*Sorry, ArtificialDad is NOT your Dad.*
+
+AD aims to be living community of hands-on technicians who are also OpenClaw multi-agent developers. We aim to be an educational community that never stops learning how to build an ArtificialDad ... it's important to understand WHY artificial is never going to be a replacement for the real thing ... in either intelligence or Dads. 
+
+We generally try to stay current with [OpenClaw.AI](https://openclaw.ai/) as well as the [OpenClaw organization on GitHub](https://github.com/openclaw) and pay attention to best practices and things such as [AWESOME OpenClaw skills](https://github.com/VoltAgent/awesome-openclaw-skills). The last update to this page was March 10, 2026; our intention is to continuously update this site but *we're busy; we DO have other things that we need to do.*
+
+*Turn off your teevee and spend some time perfecting your understanding of technologies and tools that shape your future trade.*
 
 # Onboarding/Background
 
