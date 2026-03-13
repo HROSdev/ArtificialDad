@@ -28,7 +28,7 @@ What we are intent on LEARNING how to do ... is to build dynamic assistive agent
 
 1) **[Meta Quest Developer Hub (MQDH) Environment](https://developers.meta.com/horizon/documentation/unity/ts-mqdh-getting-started/) Setup**  
 
-   Meta Quest Developer Hub (MQDH) is the recommended, official toolset for developing on Meta Quest headsets, providing a comprehensive interface for device management, debugging, and performance analysis. While MQDH is the standard tool, several alternatives exist that focus on sideloading, third-party distribution, or engine-specific debugging, most notably SideQuest. In module 1, you will want to become THOROUGHLY VERSED in MQDH, but you should also check out the competing approaches.
+   Meta Quest Developer Hub (MQDH) is the recommended, official toolset for developing on Meta Quest headsets, providing a comprehensive interface for device management, debugging, and performance analysis. While MQDH is the standard tool, ***several alternatives exist that focus on sideloading, third-party distribution, or engine-specific debugging, most notably SideQuest.*** In module 1, you will want to become THOROUGHLY VERSED in MQDH, but you should also check out the competing approaches.
 
    * Hardware capabilities and limitations analysis  
    * Unity integration and OpenXR standard implementation  
