@@ -1,102 +1,24 @@
-## **Service skills were never taught in classrooms**
+*Multi-agentic swarms, will be TOO ASSISTIVE for many.*
 
-### **Field service skills were picked up, handiness with tools evolved under guidance, professionally mastered with guidance passed on only through practice.**  
+*An ArtificialDad is just like getting way too much help from a REAL Dad.* 
 
-*Sorry buddy, ArtificialDad is NOT your Dad!*
+# MultiAgent AR/VR Learning Roadmap
 
-AD aims to be living community of hands-on technicians who are also OpenClaw multi-agent developers. We aim to be an educational community that never stops learning how to build an ArtificialDad ... it's important to understand WHY artificial is never going to be a replacement for the real thing ... in either intelligence or Dads. 
+This is a 200-module **learning roadmap**, which lays out exactly the same course as the [original, simpler more AR/VR focused roadmap](Original.md), but we incorporate **OpenClaw-styled multi-agent intelligence** to give the person in the field adaptive, agentic AI capabilities. *We recognize that being assisted by multi-agentic swarms, might be TOO ASSISTIVE for many, ie ArtificialDad is just like getting way too much help from a REAL Dad.* 
 
-We generally try to stay current with [OpenClaw.AI](https://openclaw.ai/) as well as the [OpenClaw organization on GitHub](https://github.com/openclaw) and pay attention to best practices and things such as [AWESOME OpenClaw skills](https://github.com/VoltAgent/awesome-openclaw-skills). The last update to this page was March 10, 2026; our intention is to continuously update this site but *we're busy; we DO have other things that we need to do.*
+Scan the roadmap first! You probably will want to change it to fit your purposes.
 
-***Turn off your teevee and spend some time perfecting your understanding of technologies and tools that shape your future trade.***
+What we are intent on LEARNING how to do ... is to build dynamic assistive agentic swarms assist humans in the field to autonomously research, plan, code, test, critique, refine, and deploy every capability — using OpenClaw Agentic Development Patterns (single-agent ReAct, multi-agent parallel, hierarchical decomposition, swarm voting, proposer-critique-vote safety rails, manager-coordinator orchestration, human-in-the-loop gates, and custom hybrids).
 
-# Onboarding/Background
+## Program Architecture and Agentic Learning Tracks
 
-We assume that you have technical skills, ie you can use a screwdriver and a multimeter and a manometer, as well as other pertinent gages/instruments/pieces of equipment ... OR you don't exactly know everything about your [fancy new multimeter](https://www.grainger.com/product/1GAH9) and uses like troubleshooting DC or alt power batteries, you are capable of figuring out how to use it ... the hands-on stuff is up to you, cannot be covered in a GitHub repository but you can learn a lot from AI or YouTube if you have spent enough time understanding stuff to know questions to ask. 
+**Program Structure**
 
-ArtificialDad is not a substitute for asking questions and investigating and being curious. Stop making excuses for what you don't know -- just figure out how to learn, ie if you want to get ahead in life, you can't opt for crutches or having a few beers or getting high at what you thought was your end of the day ... *repeating this for emphasis, because it might just be the most important thing about autodidactic learning like ArtificialDad*-- ***you need to turn off your teevee and spend some time perfecting your understanding of technologies and tools that shape your future trade.***
-
-*After you have decide to stop being a crybaby about your education,* the FIRST Prerequisite to preceed other Prerequisites is to understand the most basic roadmap or lay of the land in OpenClaw Agentic Development Patterns.
-
-## Agentic Development Patterns
-
-### 1. Single agent system performing single task
-
-A single AI agent autonomously plans, executes, and completes an entire task using its internal reasoning capabilities. This pattern minimizes overhead and is fastest for well-scoped, deterministic problems. It serves as the foundational building block that more complex OpenClaw patterns extend or parallelize.
-
-### 2. Multi-agent parallel, performing task in different ways
-
-Several independent agents tackle the same task simultaneously using distinct strategies, tools, or perspectives. Outputs are compared side-by-side to surface the strongest result quickly. This pattern provides the diverse starting points that feed directly into iterative refinement and voting-based patterns.
-
-### 3. Multi-agent parallel with iterative refinement
-
-Agents run in parallel and then exchange partial results across multiple rounds, each refining its own output based on collective feedback. Convergence occurs naturally as weaker approaches are pruned and stronger ones amplified. It builds directly on simple parallel execution to deliver higher-quality outcomes without central oversight.
-
-### 4. Multi-agent coordinator with a manager agent to optimize iterative refinement
-
-A dedicated manager agent dynamically routes subtasks, scores progress, and reallocates resources during parallel refinement loops. This orchestration layer eliminates redundant computation that plain iterative refinement can suffer from. The coordinator pattern scales the benefits of multi-agent parallel refinement to larger or noisier workloads.
-
-### 5. Multi-agent hierarchical decomposition by a manager breaking a task into sub-tasks
-
-A top-level manager first decomposes the original task into dependent subtasks and assigns each to a specialized child agent. Child agents execute independently or in small sub-groups, reporting upward for integration. This hierarchical structure provides clean dependency management and is the natural evolution when parallel or coordinator patterns encounter task complexity that exceeds flat decomposition.
-
-### 6. Multi-agent swarm in which many agents brainstorm and vote on best approach
-
-A large population of agents freely generates ideas in a shared workspace, then uses majority or weighted voting to select the next direction. The swarm’s emergent consensus often uncovers creative solutions missed by hierarchical or single-manager systems. Swarms can be layered on top of any iterative loop to inject diversity before refinement or critique steps.
-
-### 7. Single agent loop until stop condition is met, reasoning and acting (ReAct) upon base model, modifying base model per lessons learned in performing task
-
-One agent repeatedly observes the environment, reasons about the next action, executes it, and stores lessons to update its internal model or prompt. The loop terminates when success criteria or a maximum iteration count is reached. This ReAct core is the minimal self-improving engine that every multi-agent variant in the OpenClaw catalog extends.
-
-### 8. Multi-agent ReAct iterative loop until a stop condition is met
-
-Multiple agents run synchronized or asynchronous ReAct cycles, sharing observations and partial plans at each step. The collective loop accelerates exploration and distributes learning across agents until the shared stop condition fires. It directly multiplies the power of the single-agent ReAct pattern while preserving the same clear termination logic.
-
-### 9. Multi-agent review and critique, during iterative loops, one agent proposes, then others critique and vote on best next step, as the group continues to iterate toward safer or better outcomes
-
-Within any ReAct or refinement loop, a proposer agent drafts the next action; the remaining agents critique it for risks or flaws and vote on revisions. Only the approved step is executed, creating built-in safety rails. This critique layer can be inserted into any preceding multi-agent pattern—parallel, hierarchical, swarm, or coordinated—to systematically raise outcome quality and reliability.
-
-### 10. Human-in-the-loop, generally like any of the previous, except that agents pause at point until human approves continuation or finish.
-
-Any OpenClaw pattern above can be augmented with explicit pause points where the agent team surfaces its current state and proposed next action for human review. The human can approve, modify, or abort, injecng judgment that pure automation cannot replicate. This hybrid wrapper works uniformly across single-agent, multi-agent, ReAct, or custom flows without altering their core logic.
-
-### 11. Custom logic that is especially tailored to a particular kind of problem
-When domain constraints or performance requirements exceed the standard patterns, developers assemble bespoke combinations of decomposition, voting, critique, and ReAct loops with problem-specific guardrails or external tools. The resulting flow is documented as its own named pattern for reuse within the same domain. Custom logic is the final evolution stage: every other OpenClaw pattern serves as a proven starting template that can be surgically modified until the solution perfectly matches the target problem.
-
-# Agentic Autodidactic Manifesto for ArtificialDad
-
-### See below for 200-Modules On Implementing An AR/VR-Enhanced HVAC Remote Consultation System
-
-It's best to read through *or at least rapidly scan* this entire plan first. It really only a Table Of Contents. After you have the gist of it, you will probably want to revise it, probably using your favorite AI to take [this file](https://github.com/HROSdev/ArtificialDad/blob/master/src/Manifesto.md) and adjust according to YOUR prompted instructiions to your AI.
-
-## Self-Evolving AR/VR-Enhanced HVAC Remote Consultation System Powered by OpenClaw Multi-Agent Swarms
-
-This manifesto defines the **exact same 200-module autodidactic evolution roadmap** as the original, now radically upgraded for **OpenClaw-powered multi-agent intelligence**. The “students” are dynamic agent swarms that autonomously research, plan, code, test, critique, refine, and deploy every capability — using the full 11 OpenClaw Agentic Development Patterns (single-agent ReAct, multi-agent parallel, hierarchical decomposition, swarm voting, proposer-critique-vote safety rails, manager-coordinator orchestration, human-in-the-loop gates, and custom hybrids).
-
-OpenClaw supplies the runtime: persistent `SOUL.md` memory, auto-generated `SKILL.md` tools, workspace-as-kernel state, and heartbeat-driven autonomy. Every module is executed as an agentic workflow that encodes lessons learned, updates internal models, and directly feeds the next modules — creating true continuous autodidactic growth.
-
-**Program Structure (preserved exactly):**
 - **130 modules (65%)**: Agentic AR/VR interface development and field connectivity  
 - **50 modules (25%)**: Autodidactic AI knowledge encoding & diagnostic swarm intelligence  
 - **20 modules (10%)**: HVAC domain grounding via agentic research and simulation  
 - **Each module cluster**: Intensive OpenClaw cycles (ReAct → parallel exploration → critique-vote → encode lessons)  
 - **Total evolution**: Progressive 1,200-hour agentic build to a production-grade, perpetually self-improving ArtificialDad system
-
-## OpenClaw Agentic Development Patterns Integrated Throughout
-
-Every module deliberately escalates pattern complexity:  
-1–2. Single-agent ReAct + multi-agent parallel for rapid mastery  
-3–4. Iterative refinement + manager-coordinator orchestration  
-5. Hierarchical decomposition for complex dependencies  
-6. Swarm brainstorming & weighted voting for creative solutions  
-7–8. Single- and multi-agent ReAct loops until stop conditions  
-9. Proposer-critique-vote safety rails  
-10. Human-in-the-loop approval gates  
-11. Custom hybrid logic tailored to HVAC/AR/VR constraints  
-
-These are not optional — they **are** how ArtificialDad learns and builds itself.
-
-## Program Architecture and Agentic Learning Tracks
 
 ### **Track A: AR/VR Interface Development and Field Connectivity (Modules 1-130)**
 

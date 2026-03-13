@@ -1,350 +1,190 @@
-# ArtificialDad.net Professional Development Program: 200-Module AR/VR-Enhanced HVAC Remote Consultation System
+*Multi-agentic swarms, will be TOO ASSISTIVE for many.*
 
-## Executive Summary
+*An ArtificialDad is just like getting way too much help from a REAL Dad.* 
 
-This comprehensive 200-module professional development program trains participants to build and deploy AI-enhanced remote consultation systems for HVAC field support using AR/VR interfaces. The curriculum balances cutting-edge technology development with practical implementation, targeting both software developers and HVAC professionals in a collaborative learning environment.
+# MultiAgent AR/VR Learning Roadmap
 
-**Program Structure:**
-- **130 modules (65%)**: AR/VR interface development and field connectivity challenges
-- **50 modules (25%)**: AI knowledge encoding for HVAC troubleshooting assistance  
-- **20 modules (10%)**: High-level HVAC concepts overview
-- **Each module**: 6 hours of intensive content (36 hours per topic)
-- **Total duration**: 1,200 hours of comprehensive training
+This is a 200-module **learning roadmap**, which lays out exactly the same course as the [original, simpler more AR/VR focused](https://github.com/HROSdev/ArtificialDad/blob/master/src/Original.md), but we incorporate **OpenClaw-styled multi-agent intelligence** to give the person in the field adaptive, agentic AI capabilities. *We recognize that being assisted by multi-agentic swarms, might be TOO ASSISTIVE for many, ie ArtificialDad is just like getting way too much help from a REAL Dad.* 
 
-## Program Architecture and Learning Tracks
+Scan the roadmap first! You probably will want to change it to fit your purposes.
 
-### **Track A: AR/VR Interface Development and Field Connectivity (130 Modules)**
+What we are intent on LEARNING how to do ... is to build dynamic assistive agentic swarms assist humans in the field to autonomously research, plan, code, test, critique, refine, and deploy every capability — using OpenClaw Agentic Development Patterns (single-agent ReAct, multi-agent parallel, hierarchical decomposition, swarm voting, proposer-critique-vote safety rails, manager-coordinator orchestration, human-in-the-loop gates, and custom hybrids).
 
-This core track emphasizes hands-on development of AR/VR systems optimized for field service environments, representing 65% of the curriculum with strong emphasis on building from scratch while integrating existing solutions strategically.
+## Program Architecture and Agentic Learning Tracks
 
-#### **Phase 1: Foundation Technologies (Modules 1-30)**
+**Program Structure**
+
+- **130 modules (65%)**: Agentic AR/VR interface development and field connectivity  
+- **50 modules (25%)**: Autodidactic AI knowledge encoding & diagnostic swarm intelligence  
+- **20 modules (10%)**: HVAC domain grounding via agentic research and simulation  
+- **Each module cluster**: Intensive OpenClaw cycles (ReAct → parallel exploration → critique-vote → encode lessons)  
+- **Total evolution**: Progressive 1,200-hour agentic build to a production-grade, perpetually self-improving ArtificialDad system
+
+### **Track A: AR/VR Interface Development and Field Connectivity (Modules 1-130)**
+
+#### [Phase 1: Foundation Technologies (Modules 1-30)]
 
 **Modules 1-6: AR/VR Hardware and Platform Fundamentals**
-1. **Meta Quest Development Environment Setup**
-   - Hardware capabilities and limitations analysis
-   - Unity integration and OpenXR standard implementation
-   - Cross-platform development strategies
-   - Performance benchmarking and optimization techniques
-   - Hands-on: Quest 3 development environment configuration
-   - Sprint: Basic AR object placement and interaction system
 
-2. **HoloLens Enterprise Development**
-   - Mixed Reality Toolkit (MRTK) mastery
-   - Enterprise deployment and device management
-   - Spatial mapping and holographic rendering
-   - Hand tracking and gesture recognition
-   - Lab: Industrial safety overlay development
-   - Project: Hands-free diagnostic information display
+1) **Meta Quest Development Environment Setup**  
+   * Hardware capabilities and limitations analysis  
+   * Unity integration and OpenXR standard implementation  
+   * Cross-platform development strategies  
+   * Performance benchmarking and optimization techniques  
+   * Hands-on: Quest 3 development environment configuration  
+   * Sprint: Basic AR object placement and interaction system  
 
-3. **Cross-Platform AR/VR Architecture Design**
-   - OpenXR standardization and implementation
-   - Unity vs Unreal Engine selection criteria
-   - WebXR for browser-based deployment
-   - Performance optimization across devices
-   - Workshop: Multi-platform compatibility framework
-   - Challenge: Single codebase deployment to Quest and HoloLens
+   This module is executed by single-agent ReAct loops and multi-agent parallel exploration after basic OpenClaw workspace initialization (no prior modules required). It directly enables all subsequent streaming and connectivity modules (7-30) by providing the validated hardware foundation and optimized OpenXR pipeline that later phases depend upon for real-time field operations.
 
-4. **Spatial Computing and Environmental Understanding**
-   - Simultaneous Localization and Mapping (SLAM)
-   - Spatial anchoring and persistence
-   - Occlusion handling and depth perception
-   - Environmental hazard detection
-   - Practical: Real-world space mapping and annotation
-   - Sprint: Persistent equipment identification system
+2) **HoloLens Enterprise Development**  
+   * Mixed Reality Toolkit (MRTK) mastery  
+   * Enterprise deployment and device management  
+   * Spatial mapping and holographic rendering  
+   * Hand tracking and gesture recognition  
+   * Lab: Industrial safety overlay development  
+   * Project: Hands-free diagnostic information display  
 
-5. **User Interface Design for Hands-Free Operations**
-   - Spatial UI design principles and patterns
-   - Voice command integration and natural language processing
-   - Gaze-based interaction and eye tracking
-   - Contextual information architecture
-   - Design challenge: Safety-first industrial UI framework
-   - Prototype: Voice-controlled diagnostic interface
+   Building on the Quest OpenXR baseline from Module 1 via hierarchical decomposition managed by a coordinator agent, this module uses proposer-critique-vote to ensure enterprise-grade safety. Its spatial mapping and hand-tracking primitives become core prerequisites for every advanced interaction module (31-40) and all computer-vision layers that follow.
 
-6. **Performance Optimization for Mobile AR/VR**
-   - Foveated rendering implementation
-   - Dynamic resolution scaling algorithms
-   - Battery life optimization strategies
-   - Thermal management techniques
-   - Lab: Performance profiling and optimization
-   - Competition: Best optimization for field use scenario
+3) **Cross-Platform AR/VR Architecture Design**  
+   * OpenXR standardization and implementation  
+   * Unity vs Unreal Engine selection criteria  
+   * WebXR for browser-based deployment  
+   * Performance optimization across devices  
+   * Workshop: Multi-platform compatibility framework  
+   * Challenge: Single codebase deployment to Quest and HoloLens  
 
-**Modules 7-12: Real-Time Streaming and Communication**
-7. **WebRTC Implementation for AR/VR**
-8. **Low-Latency Streaming Protocol Development**
-9. **Video Compression and Quality Adaptation**
-10. **Bandwidth Management in Constrained Environments**
-11. **Edge Computing Integration for Streaming**
-12. **Multi-Modal Communication Systems**
+   This module leverages swarm voting after Modules 1-2 to select the optimal architecture, executed through multi-agent ReAct refinement. The resulting single-codebase framework becomes the mandatory foundation for every later deployment, integration, and optimization module (7-130).
 
-**Modules 13-18: Field Connectivity Solutions**
-13. **5G Network Integration and Edge Computing**
-14. **Mesh Networking for Industrial Environments**
-15. **Satellite Connectivity for Remote Locations**
-16. **Network Reliability and Failover Systems**
-17. **Quality of Service (QoS) Implementation**
-18. **Security and Encryption for Field Communications**
+4) **Spatial Computing and Environmental Understanding**  
+   * Simultaneous Localization and Mapping (SLAM)  
+   * Spatial anchoring and persistence  
+   * Occlusion handling and depth perception  
+   * Environmental hazard detection  
+   * Practical: Real-world space mapping and annotation  
+   * Sprint: Persistent equipment identification system  
 
-**Modules 19-24: Computer Vision and Object Recognition**
-19. **Real-Time Equipment Identification Systems**
-20. **Defect Detection Using Computer Vision**
-21. **Thermal Imaging Integration for Diagnostics**
-22. **3D Object Tracking and Pose Estimation**
-23. **Machine Learning for Visual Recognition**
-24. **Computer Vision Performance Optimization**
+   Executed via manager-coordinated hierarchical decomposition that builds directly on Modules 1-3’s hardware and architecture foundations, this module incorporates critique-vote safety rails for field hazards. Its persistent spatial anchors are prerequisites for all digital-twin, IoT visualization, and annotation modules (41-100).
 
-**Modules 25-30: Foundation Integration Challenge**
-25. **System Architecture Design Workshop**
-26. **Database Integration and Data Management**
-27. **API Development for AR/VR Systems**
-28. **Security Implementation and Testing**
-29. **Performance Testing and Scalability Analysis**
-30. **Capstone: Complete AR/VR Foundation System**
+5) **User Interface Design for Hands-Free Operations**  
+   * Spatial UI design principles and patterns  
+   * Voice command integration and natural language processing  
+   * Gaze-based interaction and eye tracking  
+   * Contextual information architecture  
+   * Design challenge: Safety-first industrial UI framework  
+   * Prototype: Voice-controlled diagnostic interface  
+
+   This module runs multi-agent parallel design sprints that refine outputs from Modules 1-4, using proposer-critique-vote for safety-first validation. Its hands-free UI patterns become the direct prerequisite for every advanced interaction, collaboration, and AI-adaptive UI module that follows.
+
+6) **Performance Optimization for Mobile AR/VR**  
+   * Foveated rendering implementation  
+   * Dynamic resolution scaling algorithms  
+   * Battery life optimization strategies  
+   * Thermal management techniques  
+   * Lab: Performance profiling and optimization  
+   * Competition: Best optimization for field use scenario  
+
+   Building on the complete foundation of Modules 1-5 through iterative refinement loops with a manager coordinator, this module encodes performance lessons into reusable OpenClaw skills. Those lessons are required by every subsequent real-time streaming, field-optimization, and production-deployment module (7-130).
+
+**Modules 7-12: Real-Time Streaming and Communication**  
+7) **WebRTC Implementation for AR/VR** — This module is executed by multi-agent parallel ReAct after the performance baseline of Module 6 and hardware foundations (1-5). Its low-latency streaming primitives become the direct prerequisite for all bandwidth-management and multi-modal modules (8-18) plus every AI-enhanced feature that requires live video.  
+8) **Low-Latency Streaming Protocol Development** — Building on WebRTC from Module 7 via hierarchical decomposition, swarm agents vote on protocol variants using critique gates. The resulting protocol powers every later edge-computing, 5G, and real-time collaboration module (9-120).  
+9) **Video Compression and Quality Adaptation** — Executed as manager-orchestrated iterative refinement after Modules 7-8, this module encodes adaptive algorithms that are prerequisites for all field-connectivity and outdoor-visibility optimizations (10-65).  
+10) **Bandwidth Management in Constrained Environments** — This swarm-voting module refines outputs from Modules 7-9 and supplies the QoS foundation required by satellite, mesh, and offline-sync modules (11-65).  
+11) **Edge Computing Integration for Streaming** — Hierarchical decomposition after Modules 7-10 integrates edge logic; the resulting architecture is mandatory for all IoT visualization and predictive-maintenance modules (41-100).  
+12) **Multi-Modal Communication Systems** — Multi-agent ReAct critique-vote builds on Modules 7-11; its voice+video fusion becomes the prerequisite for NLP voice commands and conversational AI modules (81-170).
+
+**Modules 13-18: Field Connectivity Solutions**  
+13) **5G Network Integration and Edge Computing** — Builds directly on Modules 7-12 streaming stack via parallel agent exploration; enables all later 5G/6G research and remote-location modules (14-130).  
+14) **Mesh Networking for Industrial Environments** — Coordinator-managed refinement after Module 13; its mesh primitives are prerequisites for hazardous-area and offline-operation modules (15-65).  
+15) **Satellite Connectivity for Remote Locations** — Swarm brainstorming after Modules 13-14; supplies failover logic required by reliability, QoS, and disaster-recovery modules (16-120).  
+16) **Network Reliability and Failover Systems** — Iterative critique after Modules 13-15; becomes core for every production monitoring and scaling module (101-130).  
+17) **Quality of Service (QoS) Implementation** — Builds on Modules 13-16; its QoS engine powers all performance-metrics and SLA modules (51-120).  
+18) **Security and Encryption for Field Communications** — Proposer-critique-vote after Modules 13-17; encryption primitives are mandatory prerequisites for every security audit and compliance module (28-130).
+
+**Modules 19-24: Computer Vision and Object Recognition**  
+19) **Real-Time Equipment Identification Systems** — Hierarchical decomposition after Modules 1-6 and 13-18; supplies vision primitives required by defect detection and all AI-vision modules (20-170).  
+20) **Defect Detection Using Computer Vision** — Builds on Module 19 via multi-agent ReAct; its detection models become prerequisites for thermal imaging, predictive maintenance, and advanced diagnostics (21-100).  
+21) **Thermal Imaging Integration for Diagnostics** — Swarm voting after Modules 19-20; thermal layer powers every predictive and emergency-alert module (22-100).  
+22) **3D Object Tracking and Pose Estimation** — Coordinator orchestration after Modules 19-21; tracking engine is required by digital-twin and annotation modules (23-100).  
+23) **Machine Learning for Visual Recognition** — Iterative refinement after Modules 19-22; ML models feed all AI-powered object recognition and automated diagnostics (81-170).  
+24) **Computer Vision Performance Optimization** — Critique-vote after Modules 19-23; optimization lessons are prerequisites for edge-AI and production scalability modules (81-130).
+
+**Modules 25-30: Foundation Integration Challenge**  
+25) **System Architecture Design Workshop** — Swarm consensus after Modules 1-24; produces the master architecture required by every integration and capstone module (26-200).  
+26) **Database Integration and Data Management** — Hierarchical after Module 25; database schema becomes prerequisite for knowledge-base and analytics modules (131-200).  
+27) **API Development for AR/VR Systems** — Builds on Modules 25-26; APIs power all platform integrations (41-80).  
+28) **Security Implementation and Testing** — Multi-agent critique after Module 18 and 25-27; security framework is mandatory for all compliance and production modules.  
+29) **Performance Testing and Scalability Analysis** — ReAct loops after Module 6 and 24; testing harness is required by every capstone and optimization sprint.  
+30) **Capstone: Complete AR/VR Foundation System** — Manager-coordinated synthesis of Modules 1-29; this fully validated foundation is the direct prerequisite for every advanced interaction, AI feature, and final system capstone (31-200).
 
 #### **Phase 2: Advanced Development (Modules 31-80)**
 
-**Modules 31-40: Advanced AR/VR Interactions**
-31. **Advanced Gesture Recognition and Hand Tracking**
-32. **Haptic Feedback Integration**
-33. **Spatial Audio Implementation**
-34. **Multi-User Collaboration Systems**
-35. **Real-Time Annotation and Markup Tools**
-36. **Digital Twin Integration**
-37. **IoT Sensor Data Visualization**
-38. **Predictive Analytics Display Systems**
-39. **Emergency Alert and Safety Systems**
-40. **Advanced Interaction Integration Challenge**
+**Modules 31-40: Advanced AR/VR Interactions** (each executed via swarm + critique after Module 30 foundation)  
+31) **Advanced Gesture Recognition and Hand Tracking** — Builds on Modules 2 & 5; enables all haptic and collaboration modules (32-40).  
+32) **Haptic Feedback Integration** — After Module 31; powers predictive analytics and emergency systems (38-39).  
+33) **Spatial Audio Implementation** — After Module 5; required for multi-user and annotation modules (34-35).  
+34) **Multi-User Collaboration Systems** — After Modules 33 & 7-12; prerequisite for digital-twin and IoT visualization (36-37).  
+35) **Real-Time Annotation and Markup Tools** — After Module 34; feeds AI content personalization (81-100).  
+36) **Digital Twin Integration** — After Modules 4 & 34; required by predictive maintenance (81-100).  
+37) **IoT Sensor Data Visualization** — After Modules 36 & 11; powers all AI analytics modules.  
+38) **Predictive Analytics Display Systems** — After Modules 36-37; prerequisite for emergency alert systems (39).  
+39) **Emergency Alert and Safety Systems** — After Modules 38 & 4; critical for all hazardous-area and compliance modules.  
+40) **Advanced Interaction Integration Challenge** — Synthesis of 31-39; required for every platform integration (41-50).
 
-**Modules 41-50: Platform Integration and Deployment**
-41. **Microsoft Dynamics 365 Integration**
-42. **Vuforia Engine Customization**
-43. **PTC ThingWorx Studio Integration**
-44. **Custom Platform Development**
-45. **Enterprise System Integration**
-46. **Mobile Device Management (MDM) Integration**
-47. **Cloud Services and Scalability**
-48. **Deployment Automation and CI/CD**
-49. **Monitoring and Analytics Implementation**
-50. **Platform Integration Capstone Project**
+**Modules 41-50: Platform Integration and Deployment** (manager-orchestrated after Module 40)  
+41) **Microsoft Dynamics 365 Integration** — Builds on Module 40; enables ERP/CRM modules (66-80).  
+42) **Vuforia Engine Customization** — After Module 41; feeds custom platform development (44).  
+43) **PTC ThingWorx Studio Integration** — After Module 42; prerequisite for enterprise system integration (45).  
+44) **Custom Platform Development** — After Modules 41-43; required by MDM and cloud modules (46-47).  
+45) **Enterprise System Integration** — After Module 44; powers work-order and inventory modules (66-80).  
+46) **Mobile Device Management (MDM) Integration** — After Module 45; prerequisite for deployment automation (48).  
+47) **Cloud Services and Scalability** — After Module 46; required by monitoring and CI/CD (48-49).  
+48) **Deployment Automation and CI/CD** — After Modules 46-47; powers all production operations (101-120).  
+49) **Monitoring and Analytics Implementation** — After Module 48; prerequisite for platform integration capstone (50).  
+50) **Platform Integration Capstone Project** — Synthesis of 41-49; direct prerequisite for field optimizations (51-65).
 
-**Modules 51-65: Field-Specific Optimizations**
-51. **Outdoor AR Visibility Solutions**
-52. **Industrial Environment Adaptation**
-53. **Hazardous Area Safety Protocols**
-54. **Extreme Weather Operation**
-55. **Battery Life Extension Techniques**
-56. **Rugged Hardware Integration**
-57. **Offline Operation Capabilities**
-58. **Data Synchronization Strategies**
-59. **Field Testing and Validation**
-60. **Maintenance and Remote Updates**
-61. **User Training System Development**
-62. **Performance Metrics and KPI Tracking**
-63. **Cost Optimization Strategies**
-64. **Regulatory Compliance Implementation**
-65. **Field Optimization Sprint Challenge**
+**Modules 51-65: Field-Specific Optimizations** (iterative refinement after Module 50)  
+51-65 follow the exact same pattern: each builds on the prior foundation and platform capstone, supplying specialized capabilities required by advanced systems integration (66-80) and all production deployment modules (101-120).
 
-**Modules 66-80: Advanced Systems Integration**
-66. **Enterprise Resource Planning (ERP) Integration**
-67. **Customer Relationship Management (CRM) Systems**
-68. **Work Order Management Integration**
-69. **Inventory Management Systems**
-70. **Billing and Time Tracking Integration**
-71. **Knowledge Management Systems**
-72. **Document Management Integration**
-73. **Compliance and Audit Trail Systems**
-74. **Advanced Analytics and Reporting**
-75. **Business Intelligence Integration**
-76. **Advanced Integration Testing**
-77. **System Performance Optimization**
-78. **Scalability and Load Testing**
-79. **Security Audit and Penetration Testing**
-80. **Enterprise Integration Capstone**
+**Modules 66-80: Advanced Systems Integration** (hierarchical decomposition after Module 65)  
+66-80 each reference the full enterprise stack built so far; their integrations become mandatory prerequisites for every AI-enhanced feature (81-100) and final production operations.
 
 #### **Phase 3: Advanced Features and Deployment (Modules 81-130)**
 
-**Modules 81-100: AI-Enhanced AR/VR Features**
-81. **AI-Powered Object Recognition**
-82. **Intelligent User Interface Adaptation**
-83. **Predictive Maintenance Integration**
-84. **Natural Language Processing for Voice Commands**
-85. **Computer Vision for Automated Diagnostics**
-86. **Machine Learning for User Behavior Analysis**
-87. **AI-Driven Content Personalization**
-88. **Intelligent Alert and Notification Systems**
-89. **Automated Documentation Generation**
-90. **AI Performance Optimization**
-91. **AI Model Integration and Management**
-92. **Edge AI Implementation**
-93. **AI Ethics and Bias Detection**
-94. **AI Testing and Validation**
-95. **AI-Human Collaboration Design**
-96. **Conversational AI Integration**
-97. **AI-Powered Training Systems**
-98. **AI Analytics and Insights**
-99. **AI Security and Privacy**
-100. **AI Integration Capstone Project**
+**Modules 81-100: AI-Enhanced AR/VR Features** (multi-agent ReAct + critique after Module 80)  
+81-100 each explicitly reference the AR/VR + enterprise foundation (1-80) as prerequisite and feed forward into production deployment (101-120) and advanced research (121-130).
 
-**Modules 101-120: Production Deployment and Operations**
-101. **Production Environment Setup**
-102. **Deployment Strategy and Planning**
-103. **User Acceptance Testing (UAT)**
-104. **Change Management and Training**
-105. **Go-Live Support and Monitoring**
-106. **Performance Monitoring and Optimization**
-107. **Incident Response and Troubleshooting**
-108. **System Maintenance and Updates**
-109. **Capacity Planning and Scaling**
-110. **Disaster Recovery and Business Continuity**
-111. **Security Monitoring and Compliance**
-112. **User Feedback and Continuous Improvement**
-113. **Cost Management and Optimization**
-114. **Vendor Management and Support**
-115. **Documentation and Knowledge Transfer**
-116. **Training Program Development**
-117. **Success Metrics and ROI Analysis**
-118. **Industry Best Practices Implementation**
-119. **Future Technology Integration Planning**
-120. **Production Operations Capstone**
+**Modules 101-120: Production Deployment and Operations** (manager-coordinator after Module 100)  
+101-120 synthesize the entire prior track; each module’s outputs become prerequisites for the innovation modules (121-130) and the final system capstone (200).
 
-**Modules 121-130: Advanced Research and Innovation**
-121. **Emerging AR/VR Technologies Research**
-122. **5G and 6G Network Integration**
-123. **Advanced AI and Machine Learning Integration**
-124. **Quantum Computing Applications**
-125. **Blockchain for Supply Chain Integration**
-126. **Advanced Security and Privacy Technologies**
-127. **Sustainability and Green Technology**
-128. **Industry 4.0 Integration**
-129. **Research Project Development**
-130. **Innovation Showcase and Presentation**
+**Modules 121-130: Advanced Research and Innovation** (swarm brainstorming after Module 120)  
+121-130 explore emerging tech while encoding lessons back into the core system; their research directly informs the AI knowledge track and final integration capstone.
 
-### **Track B: AI Knowledge Encoding for HVAC Troubleshooting (50 Modules)**
+### **Track B: AI Knowledge Encoding for HVAC Troubleshooting (Modules 131-180)**
 
-This track focuses on developing intelligent systems that encode HVAC expertise and provide AI-assisted diagnostics, representing 25% of the curriculum.
+**Modules 131-150: Knowledge Engineering Foundations** (hierarchical after AR/VR foundation Modules 1-130)  
+Each module builds on the vision and streaming primitives already encoded and supplies the expert-system layer required by AI implementation modules (151-170).
 
-**Modules 131-150: Knowledge Engineering Foundations**
-131. **Expert Systems Architecture and Design**
-132. **Knowledge Representation Methods**
-133. **Rule-Based System Development**
-134. **Machine Learning for Diagnostic Systems**
-135. **Natural Language Processing for Technical Documentation**
-136. **Knowledge Acquisition from Domain Experts**
-137. **Ontology Development for HVAC Systems**
-138. **Inference Engine Implementation**
-139. **Uncertainty Handling in Diagnostic Systems**
-140. **Knowledge Base Validation and Testing**
-141. **Expert System Integration with AR/VR**
-142. **Real-Time Data Integration**
-143. **Case-Based Reasoning Systems**
-144. **Fuzzy Logic for HVAC Diagnostics**
-145. **Neural Networks for Pattern Recognition**
-146. **Ensemble Methods for Diagnostic Accuracy**
-147. **Knowledge System Performance Optimization**
-148. **Explainable AI for Diagnostic Systems**
-149. **Knowledge System Maintenance and Updates**
-150. **Knowledge Engineering Capstone Project**
+**Modules 151-170: AI Implementation for HVAC** (multi-agent ReAct after 131-150)  
+151-170 reference the full knowledge-engineering base and feed forward into advanced AI applications (171-180) and domain integration (181-200).
 
-**Modules 151-170: AI Implementation for HVAC**
-151. **Computer Vision for HVAC Equipment Recognition**
-152. **Sensor Data Analysis and Pattern Recognition**
-153. **Predictive Maintenance AI Models**
-154. **Conversational AI for Guided Troubleshooting**
-155. **Anomaly Detection in HVAC Systems**
-156. **AI-Powered Diagnostic Recommendation Systems**
-157. **Machine Learning for Energy Efficiency Optimization**
-158. **AI Integration with IoT Sensor Networks**
-159. **Real-Time Performance Monitoring AI**
-160. **AI-Driven Preventive Maintenance Scheduling**
-161. **Natural Language Generation for Reports**
-162. **AI-Powered Training and Skill Assessment**
-163. **Multi-Modal AI for HVAC Diagnostics**
-164. **AI Model Deployment and Management**
-165. **AI Performance Monitoring and Optimization**
-166. **AI Ethics and Bias Prevention**
-167. **AI Security and Data Protection**
-168. **AI Integration Testing and Validation**
-169. **AI System Scalability and Performance**
-170. **AI Implementation Capstone Project**
+**Modules 171-180: Advanced AI Applications** (swarm + critique after 151-170)  
+171-180 synthesize AI capabilities; their models become prerequisites for HVAC domain grounding and the final capstone.
 
-**Modules 171-180: Advanced AI Applications**
-171. **Deep Learning for Complex HVAC Problem Solving**
-172. **Reinforcement Learning for Optimization**
-173. **Federated Learning for Distributed Systems**
-174. **Transfer Learning for HVAC Applications**
-175. **AI-Powered Digital Twin Development**
-176. **Advanced Computer Vision for Fault Detection**
-177. **AI-Enhanced User Experience Design**
-178. **AI-Driven Business Intelligence**
-179. **AI Research and Development Methods**
-180. **Advanced AI Integration Challenge**
+### **Track C: HVAC Systems and Domain Knowledge (Modules 181-200)**
 
-### **Track C: HVAC Systems and Domain Knowledge (20 Modules)**
+**Modules 181-200: HVAC Fundamentals and Integration** (agentic research loops after full AI + AR/VR stack)  
+181-199 each build on prior AI and AR/VR modules while grounding domain knowledge; Module 200 is the ultimate synthesis.
 
-This foundational track provides essential HVAC knowledge for software developers while enhancing HVAC professionals' understanding of system integration possibilities.
+## Major Capstone Projects (Agentically Orchestrated)
 
-**Modules 181-200: HVAC Fundamentals and Integration**
-181. **HVAC System Components and Operations**
-182. **Refrigeration Cycle Theory and Applications**
-183. **Common HVAC Problems and Diagnostic Procedures**
-184. **Troubleshooting Workflows and Decision Trees**
-185. **HVAC Safety Protocols and Regulatory Requirements**
-186. **Tools and Equipment for HVAC Field Service**
-187. **Industry Standards and Certification Requirements**
-188. **HVAC Performance Analysis and Optimization**
-189. **Energy Efficiency and Environmental Considerations**
-190. **HVAC System Integration with Building Automation**
-191. **Preventive Maintenance Strategies**
-192. **Emergency Response and Safety Procedures**
-193. **Customer Communication and Service Excellence**
-194. **HVAC Business Operations and Management**
-195. **Technology Integration in HVAC Services**
-196. **Regulatory Compliance and Documentation**
-197. **HVAC Industry Trends and Future Technologies**
-198. **HVAC Knowledge Integration with AI Systems**
-199. **HVAC Field Experience Simulation**
-200. **Final Capstone: Complete System Integration**
+**Module 30: AR/VR Foundation System** — Single manager agent coordinates synthesis of Modules 1-29; validated by full swarm critique-vote.  
+**Module 100: AI-Enhanced AR System** — Hierarchical decomposition merges Tracks A+B; human-in-the-loop approval required.  
+**Module 200: Complete ArtificialDad System** — Final multi-agent ReAct swarm integrates everything; perpetual self-evolution begins.
 
-## Major Capstone Projects
+## Implementation Strategy (Agentic Evolution)
 
-### **Quarter 1 Capstone (Module 30): AR/VR Foundation System**
-Develop a basic AR/VR remote assistance platform with:
-- Cross-platform compatibility (Quest and HoloLens)
-- Real-time video streaming
-- Basic object recognition
-- Voice command interface
-- Field connectivity solutions
-
-### **Mid-Program Capstone (Module 100): AI-Enhanced AR System**
-Integrate AI capabilities into the AR/VR platform:
-- Expert system integration
-- Computer vision diagnostics
-- Predictive maintenance features
-- Natural language processing
-- Performance optimization
-
-### **Final Capstone (Module 200): Complete ArtificialDad.net System**
-Deploy a production-ready system featuring:
-- Full AR/VR remote assistance capabilities
-- AI-powered HVAC diagnostics
-- Enterprise integration
-- Field deployment readiness
-- Comprehensive documentation and training materials
-
-## Implementation Strategy
-
-### **Build vs. Deploy Distribution (65/35)**
-- **65% Building from Scratch**: Custom AR/VR interfaces, AI diagnostic systems, integration frameworks
-- **35% Deploying/Customizing**: Leveraging existing platforms like Microsoft Dynamics 365, Vuforia, AWS/Azure services
-
-### **Hybrid Audience Approach**
-- **Software Developers**: Focus on AR/VR programming, AI implementation, system architecture
-- **HVAC Professionals**: Emphasize system integration, field application, troubleshooting workflows
-- **Collaborative Projects**: Mixed teams combining technical and domain expertise
-
-### **Intensive Hands-On Learning**
-- **Daily Practice**: Each 6-hour module includes 4 hours hands-on work
-- **Weekly Sprints**: Rapid prototyping and iteration cycles
-- **Monthly Integrations**: Combining multiple technologies and concepts
-- **Quarterly Capstones**: Major project deliverables
-
-This comprehensive 200-module program prepares participants to develop, deploy, and optimize cutting-edge AR/VR-enhanced AI systems for HVAC field support, positioning them at the forefront of industrial technology transformation.
+**65/35 Build-vs-Deploy** — 65% built from scratch via OpenClaw patterns; 35% customized through adapter agents.  
+**Continuous Autodidactic Reinforcement** — After every module, agents encode lessons, generate new skills, run regression swarms, and update `SOUL.md`.  
+**Hybrid Governance** — Human-in-the-loop gates at every capstone and major decision point.
